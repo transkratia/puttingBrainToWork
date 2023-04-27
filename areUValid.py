@@ -15,10 +15,10 @@ while tamanhoNome < 4:
     nome = input("Seu nome precisa de pelo menos 4 carácteres.\n Insira novamente: ")
     tamanhoNome = len(nome)
 while idade < 0 or idade > 150:
-    idade = int(input("Insira idade válida."))
+    idade = int(input("Insira idade válida. "))
 while renda <= 0:
-    renda = float(input("Insira salário válido."))
-while sexokkkk != 'f' and sexokkkk and 'm' or sexokkkk and 'nb':
-    sexokkkk = input("Gênero inválido. Insira novamente.")
+    renda = float(input("Insira salário válido. "))
+while sexokkkk != 'f' and sexokkkk != 'm' and sexokkkk != 'nb':
+    sexokkkk = input("Gênero inválido. Insira novamente. ")
 while estadoCivil != 's' and estadoCivil != 'c' and estadoCivil != 'v' and estadoCivil != 'd':
-    estadoCivil = input("Insira Estado Civil válido.")
+    estadoCivil = input("Insira Estado Civil válido. ")
